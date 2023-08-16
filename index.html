@@ -3,32 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Tyler J. Stubbs</title>
 </head>
+
 <body>
-    <header> Tyler Stubbs</header>
 
-    <nav class=headers>
-        <a href="About" alt="About Tyler">About Me</a>
-        <a href="Work" alt="Tyler's Portfolio">Work Portfolio</a>
-        <a href="Contact Me" alt="Tyler's Contact">Contact Me</a>
-        <a href="Resume" alt="My Resume">Resume</a>
-    </nav>
+    <section class="headers">
+     <header><h1>Tyler Stubbs</h1></header>
 
-    <section class="hero-banner">
-        <img src="./images/02-hero-bg.jpg" alt="background image">
-        <h2>Welcome to Tyler's world!</h2>
+     <nav>
+        <a href="#About" alt="About Tyler"> About Me </a>
+        <a href="#work" alt="Tyler's Portfolio"> Work Portfolio </a>
+        <a href="#contact" alt="Tyler's Contact"> Contact Me </a>
+        <a href="assets\images\Tyler Stubbs Resume.pdf" alt="My Resume"> Resume </a>
+        <img class="headshot" src="assets\images\20230511_172814382_iOS.jpg" alt="Tyler Stubbs' Headshot">
+     </nav>
+
     </section>
 
-    <section class="About">
-        <h1>About Me</h1>
+    <section class="hero-banner">
+     <div>
+        <h2>Welcome to Tyler's world!</h2>
+     </div>
+    </section>
+<main class="page">
+    <nav class="page-section" id="About">
+        <h3>About Me</h3>
         <div>
             <p>
                 My career up to this point has included many stops and many different skill sets. I started in sales in 2018 directly out of college.
                 In the past 5 years, I have gained experience in sales, project management and sales support. My professional story begins in 2016 though
                 when I sustained a football injury that ended my career. Instead of playing football that season, I ended up working at the local coffee
                 shop instead. This experience was really humbling but also opened me up to a new lifestyle other than that of an athlete that I lived for 
-                most of my life up to that point
+                most of my life up to that point.
 
                 <br>
 
@@ -51,41 +59,41 @@
                 bootcamp and now I am here.
             </p>
         </div>
-    </section>
+    </nav>
 
-    <section>
-        <h2>Work</h2>
+    <nav class="page-section" id="work">
+        <h3>Work</h3>
 
         <div class="flex-container">
-            <a href= "#" class="flex-item week-1-challenge alt="Week 1 Challenge">Week 1 Challenge
+            <a href= "#" class="flex-item week-1-challenge" alt= "Week 1 Challenge">Week 1 Challenge</a>
              <div>   
                 <h3>Week 1 Challenge</h3>
                 <span>Basic HTML and CSS</span>
              </div> 
             </a>
 
-            <a href= "#" class="flex-item week-1-challenge alt="Week 2 Challenge">Week 2 Challenge
+            <a href= "#" class="flex-item week-2-challenge" alt="Week 2 Challenge">Week 2 Challenge</a>
                 <div>   
                    <h3>Week 2 Challenge</h3>
                    <span>Advanced CSS</span>
                 </div> 
                </a>
 
-               <a href= "#" class="flex-item week-1-challenge alt="Week 1 Challenge">Week 1 Challenge
+               <a href= "#" class="flex-item generic">Placeholder</a>
                 <div>   
                    <h3>Week 1 Challenge</h3>
                    <span>Basic HTML and CSS</span>
                 </div> 
                </a>
 
-               <a href= "#" class="flex-item week-1-challenge alt="Week 1 Challenge">Week 1 Challenge
+               <a href= "#" class="flex-item generic">Placeholder</a>
                 <div>   
                    <h3>Week 1 Challenge</h3>
                    <span>Basic HTML and CSS</span>
                 </div> 
                </a>
 
-               <a href= "#" class="flex-item week-1-challenge alt="Week 1 Challenge">Week 1 Challenge
+               <a href= "#" class="flex-item generic">Placeholder</a>
                 <div>   
                    <h3>Week 1 Challenge</h3>
                    <span>Basic HTML and CSS</span>
@@ -93,18 +101,20 @@
                </a>
 
         </div>
-    </section>
+    </nav>
 
-    <section class="contact">
 
-        <a href="phone number" alt="Contact Tyler by Phone">704.891.7717</a>
-        <a href="email" alt="Contact Tyler by Email">tyrush1911@outlook.com</a>
+<footer class="page-section" id="contact">
+     <nav>
+        <h3>Contact Me</h3>
+
+        <a href="tel: +17048917717" alt="Contact Tyler by Phone">Phone: 704.891.7717</a>
+        <a href="mailto: tyrush1911@outlook.com" alt="Contact Tyler by Email">Email: tyrush1911@outlook.com</a>
         <a href="https://github.com/zxncho" alt="Tyler's Github">Github</a>
         <a href="https://twitter.com/_TRush11" alt="Tyler's Twitter">Twitter</a>
-        <a href="https://www.linkedin.com/in/tyler-stubbs-458b9410b/" alt="Tyler's LinkedIn">LinkedIn</a>
-
-    </section>
-
-    
+        <a href="https://www.linkedin.com/in/tyler-stubbs-458b9410b/" alt="Tyler's LinkedIn">LinkedIn</a>  
+    </nav>
+ </footer>
+</main>
 </body>
 </html>
